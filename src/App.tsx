@@ -1,10 +1,12 @@
 import "./App.css";
-import NavBar from "./components/Navbar";
+import GameGrid from "./components/GameGrid";
+import NavBar from "./components/NavBar";
 
 export default function App() {
   return (
     <>
       <NavBar />
+      <GameGrid />
     </>
   );
 }
